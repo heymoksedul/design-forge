@@ -1,0 +1,9 @@
+{
+  "extends": "@designforge/config/tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "types": ["@figma/plugin-typings"]
+  },
+  "include": ["src/**/*"]
+}

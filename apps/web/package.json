@@ -1,0 +1,32 @@
+{
+  "name": "@designforge/web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@designforge/ai": "workspace:*",
+    "@designforge/asset-pipeline": "workspace:*",
+    "@designforge/design-ir": "workspace:*",
+    "@designforge/exporter": "workspace:*",
+    "@designforge/generators": "workspace:*",
+    "@designforge/schemas": "workspace:*",
+    "@designforge/utils": "workspace:*",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@designforge/config": "workspace:*",
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
+  }
+}

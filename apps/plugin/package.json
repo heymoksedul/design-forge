@@ -1,0 +1,22 @@
+{
+  "name": "@designforge/plugin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'linting plugin...'"
+  },
+  "dependencies": {
+    "@designforge/design-ir": "workspace:*",
+    "@designforge/figma-parser": "workspace:*",
+    "@designforge/generators": "workspace:*",
+    "@designforge/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@designforge/config": "workspace:*",
+    "@figma/plugin-typings": "^1.109.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.8.2"
+  }
+}

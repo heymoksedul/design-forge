@@ -1,0 +1,27 @@
+{
+  "name": "DesignForge",
+  "id": "designforge-figma-plugin",
+  "api": "1.0.0",
+  "main": "dist/main.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma", "dev"],
+  "capabilities": ["codegen", "inspect", "vscode"],
+  "codegenLanguages": [
+    { "label": "DESIGN_SYSTEM.md", "value": "markdown" }
+  ],
+  "codegenPreferences": [
+    {
+      "itemType": "action",
+      "propertyName": "download_md",
+      "label": "💾 Download DESIGN_SYSTEM.md"
+    },
+    {
+      "itemType": "action",
+      "propertyName": "open_exporter",
+      "label": "⚡ Open Full Exporter Window"
+    }
+  ],
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
